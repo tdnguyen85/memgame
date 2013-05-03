@@ -30,11 +30,10 @@ if ( (shuffle1[0] === shuffle1[8]) && ($(shuffle1[0]).attr('data-click') === $(s
  //  alert("it is true");
  // };
 }
-for (var count = 0; count<9; count +=1) {
-  for(var i=0; i<9; i+=0) {
-    if((shuffle1[i] === shuffle1[count]) && ($(shuffle1[i]).attr('data-click') === $(shuffle1[count]).attr('data-click'))) {
-      alert('Matched Letters');
-      return false;
-    }
-  }
-}
+// for (var count = 0; count<9; count +=1) {
+//   for(var i=0; i<9; i+=0) {
+//     if((shuffle1[i] === shuffle1[count]) && ($(shuffle1[i]).attr('data-click') === $(shuffle1[count]).attr('data-click'))) {
+//       alert('Matched Letters');
+//     }
+//   }
+// }
